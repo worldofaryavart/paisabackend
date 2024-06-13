@@ -8,8 +8,7 @@ import morgan from "morgan";
 import kpiRoutes from "./routes/kpi.js";
 import productRoutes from "./routes/product.js";
 import transactionRoutes from "./routes/transaction.js";
-import KPI from "./models/KPI.js"
-import { kpis } from "./data/data.js";
+
 
 /*CONFIGURATION*/
 dotenv.config();
